@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  padding-top: 75px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.limita-secao {
+  max-width: 1024px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Seção Topo */
+.topo {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+}
+
+.secao-topo {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 18px;
+}
+
+.secao-topo button {
+  padding: 10px 10px 5px 10px;
+  border-radius: 25px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.secao-topo button img{
+  width: 20px;
+  height: 20px;
+}
+
+/* Seção Banner */
+.secao-banner {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.secao-banner-conteudo {
+  color: #022144;
+  padding-left: 25px;
+  background-color: #fafbfc;
+  height: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.secao-banner-conteudo p {
+  font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.secao-banner-conteudo h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.secao-banner-conteudo span {
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.imagem_banner {
+  background-color: #fff;
+}
+
+.imagem-banner img {
+  height: 100%;
+  padding-left: 35px;
+}
+
+/* Seção Experiências de Trabalho */
+.secao-experienciatrabalho {
+  background-color: #f6f8fc;
+  text-align: center;
+  padding-top: 85px;
+  padding-bottom: 75px;
+}
+
+.secao-experienciatrabalho-conteudo {
+  margin: 0 auto;
+}
+
+.secao-experienciatrabalho-conteudo h2 {
+  color: #32333c;
+  font-size: 42px;
+}
+
+.secao-experienciatrabalho-conteudo .paragrafo {
+  color: #8a8fa3;
+  font-size: 14px;
+  width: 650px;
+  margin: 30px auto 55px;
+}
+
+.linha-amarela {
+  border-bottom: 4px solid #feb633;
+  width: 90px;
+  margin: 15px auto;
+}
+
+/* Seção Card */
+.secao-card {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
 }

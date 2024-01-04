@@ -1,0 +1,25 @@
+.box-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #d8d9e0;
+    text-align: left;
+    width: calc(100% / 3);
+    height: 35vh;
+    padding: 25px 30px 30px 25px;
+    color: #8a8fa3;    
+}
+
+.box-card h3 {
+    color: #32333c;
+    line-height: 35px;
+}
+
+.box-card p {
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.box-card .empresa {
+    font-size: 14px;
+}
