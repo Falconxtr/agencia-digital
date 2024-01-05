@@ -61,17 +61,21 @@ export default function App () {
           </div>
         </div>
       </section>
-      <footer>
-        <img src={Logo} alt="Logo" />
-        <p>Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias, ferramentas e tecnologias personalizadas.</p>
-        <img src={Facebook} alt="Logo Facebook" />
-        <img src={Twitter} alt="Logo Twitter" />
-        <img src={Linkedin} alt="Logo Linkedin" />
-        <img src={Dribble} alt="Logo Dribble" />
-        <img src={Behance} alt="Logo Behance" />
-        <img src={Google} alt="Logo Google" />
-        <div>
-          <p>Copyright 2022 © Lucas Teixeira de Jesus</p>
+      <footer className="secao-rodape">
+        <div className="limita-secao secao-rodape-conteudo">
+          <img src={Logo} alt="Logo" className="logo-rodape" />
+          <p className="paragrafo-rodape">Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias, ferramentas e tecnologias personalizadas.</p>
+          <div className="secao-icones">
+            <img className="icone" src={Facebook} alt="Logo Facebook" />
+            <img className="icone" src={Twitter} alt="Logo Twitter" />
+            <img className="icone" src={Linkedin} alt="Logo Linkedin" />
+            <img className="icone" src={Dribble} alt="Logo Dribble" />
+            <img className="icone" src={Behance} alt="Logo Behance" />
+            <img className="icone" src={Google} alt="Logo Google" />
+          </div>
+          <div className="copyright">
+            <p>Copyright 2024 © <span>Lucas Teixeira de Jesus</span></p>
+          </div>
         </div>
       </footer>
     </div>
