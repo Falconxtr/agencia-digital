@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./App.css";
 
 import Card from "./componentes/Card";
 
 import Logo from "./assets/logo.png"; 
 import Lua from "./assets/moon.png";
+import Sol from "./assets/sun.png";
 import Banner from "./assets/banner.png";
 import Facebook from "./assets/facebook.png";
 import Twitter from "./assets/twitter.png";
@@ -14,18 +15,32 @@ import Behance from "./assets/behance.png";
 import Google from "./assets/google-plus.png";
 
 export default function App () {
+  const [novaCor, setNovaCor] = useState(true);
+  const [novaCor2, setNovaCor2] = useState(true);
+
+  const alterarCor = () => {
+    setNovaCor(!novaCor);
+    setNovaCor2(!novaCor2);
+  };
+
+  const classeTopo = `topo ${novaCor ? "bg-branco" : "bg-preto"}`;
+  const classeBotao = `botao ${novaCor ? "bg-branco" : "bg-preto"}`;
+  const classeBanner = `imagem-banner ${novaCor ? "bg-branco" : "bg-preto"}`;
+  const classeExperienciaTrabalho = `secao-experienciatrabalho ${novaCor2 ? "bg-branco2" : "bg-preto2"}`;
+  const classeRodape = `secao-rodape ${novaCor ? "bg-branco" : "bg-preto"}`;
+
   return(
     <div>
-      <header className="topo"> 
+      <header className={classeTopo}> 
         <div className="secao-topo">
           <img src={Logo} alt="Logo" />
-          <button>
-              <img src={Lua} alt="Lua" />
+          <button onClick={alterarCor} className={classeBotao}>
+              <img src={novaCor ? Lua : Sol} alt="Dark Mode" />
           </button>
         </div>
       </header>
       <section className="secao-banner">
-        <div className="imagem-banner">
+        <div className={classeBanner}>
           <img src={Banner} alt="Imagem Banner" />
         </div>
         <div className="secao-banner-conteudo">
@@ -34,7 +49,7 @@ export default function App () {
           <span>e design digital</span>
         </div>
       </section>
-      <section className="secao-experienciatrabalho">
+      <section className={classeExperienciaTrabalho}>
         <div className="limita-secao secao-experienciatrabalho-conteudo">
           <h2>Experiências De Trabalho</h2>
           <div className="linha-amarela"></div>
@@ -61,7 +76,7 @@ export default function App () {
           </div>
         </div>
       </section>
-      <footer className="secao-rodape">
+      <footer className={classeRodape}>
         <div className="limita-secao secao-rodape-conteudo">
           <img src={Logo} alt="Logo" className="logo-rodape" />
           <p className="paragrafo-rodape">Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias, ferramentas e tecnologias personalizadas.</p>

@@ -7,11 +7,9 @@
     width: calc(100% / 3);
     height: 35vh;
     padding: 25px 30px 30px 25px;
-    color: #8a8fa3;    
 }
 
 .box-card h3 {
-    color: #32333c;
     line-height: 35px;
 }
 
