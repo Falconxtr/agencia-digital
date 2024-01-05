@@ -1,0 +1,43 @@
+/* Seção Rodapé */
+.secao-rodape {
+    padding-top: 75px;
+  }
+  
+  .secao-rodape-conteudo {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .secao-rodape-conteudo .paragrafo-rodape {
+    color: #8a8fa3;
+    text-align: center;
+    margin-bottom: 35px;
+    width: 500px;
+  }
+  
+  .logo-rodape {
+    margin-bottom: 35px;
+  }
+  
+  .icone {
+    width: 40px;
+  }
+  
+  .secao-icones {
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+    margin-bottom: 75px;
+  }
+  
+  .copyright {
+    color: #8a8fa3;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .copyright span {
+    color: #feb633;
+  }

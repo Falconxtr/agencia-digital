@@ -1,0 +1,59 @@
+/* Background Color */
+.bg-branco {
+    background-color: #fff;
+}
+  
+.bg-preto {
+    background-color: #252525;
+    border-color: #fff;
+}
+
+.bg-branco2 {
+    background-color: #f6f8fc;
+    color: #8a8fa3;    
+}
+  
+.bg-branco2 h2, .bg-branco2 h3 {
+    color: #32333c;
+}
+  
+.bg-preto2 {
+    background-color: #393838;
+    color: #CCCCCC;
+}
+  
+.bg-preto2 .secao-card {
+    color: #9F9F9F;
+}
+  
+.bg-preto2 h3 {
+    color: #fff;
+}
+
+/* Seção Topo */
+.topo {
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+  .secao-topo {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 18px;
+  }
+  
+  .secao-topo .botao {
+    padding: 10px 10px 5px 10px;
+    border-style: solid;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .secao-topo button img{
+    width: 20px;
+    height: 20px;
+  }

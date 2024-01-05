@@ -1,0 +1,33 @@
+/* Seção Experiências de Trabalho */
+.secao-experienciatrabalho {
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 75px;
+  }
+  
+  .secao-experienciatrabalho-conteudo {
+    margin: 0 auto;
+  }
+  
+  .secao-experienciatrabalho-conteudo h2 {
+    font-size: 42px;
+  }
+  
+  .secao-experienciatrabalho-conteudo .paragrafo {
+    font-size: 14px;
+    width: 650px;
+    margin: 30px auto 55px;
+  }
+  
+  .linha-amarela {
+    border-bottom: 4px solid #feb633;
+    width: 90px;
+    margin: 15px auto;
+  }
+  
+  /* Seção Card */
+  .secao-card {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+  }

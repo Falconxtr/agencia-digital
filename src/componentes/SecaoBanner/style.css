@@ -1,0 +1,41 @@
+/* Seção Banner */
+.secao-banner {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.secao-banner-conteudo {
+    color: #022144;
+    padding-left: 25px;
+    background-color: #fafbfc;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.secao-banner-conteudo p {
+    font-size: 14px;
+}
+  
+.secao-banner-conteudo h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+  
+.secao-banner-conteudo span {
+    font-weight: bold;
+    font-size: 42px;
+}
+  
+.imagem-banner {
+  width: 50%;
+}
+
+.imagem-banner img {
+    height: 100%;
+    padding-left: 35px;
+    width: auto;
+}
