@@ -1,43 +1,52 @@
 /* Seção Rodapé */
 .secao-rodape {
     padding-top: 75px;
-  }
-  
-  .secao-rodape-conteudo {
+}
+
+.secao-rodape-conteudo {
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .secao-rodape-conteudo .paragrafo-rodape {
+}
+
+.secao-rodape-conteudo .paragrafo-rodape {
     color: #8a8fa3;
     text-align: center;
     margin-bottom: 35px;
-    width: 500px;
-  }
-  
-  .logo-rodape {
+    max-width: 520px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo-rodape {
     margin-bottom: 35px;
-  }
-  
-  .icone {
+}
+
+.icone {
     width: 40px;
-  }
-  
-  .secao-icones {
+}
+
+.secao-icones {
     display: flex;
     justify-content: space-evenly;
     width: 350px;
     margin-bottom: 75px;
-  }
-  
-  .copyright {
+}
+
+.copyright {
     color: #8a8fa3;
     font-size: 14px;
     margin-bottom: 20px;
-  }
-  
-  .copyright span {
+}
+
+.copyright span {
     color: #feb633;
-  }
+}
+
+/* Responsividade */
+@media screen and (max-width: 375px) {
+    .secao-rodape-conteudo .paragrafo-rodape {
+        max-width: 320px;
+    }
+}

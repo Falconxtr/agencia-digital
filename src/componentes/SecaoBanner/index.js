@@ -9,7 +9,6 @@ export default function SecaoBanner(props) {
     return(
         <section className="secao-banner">
             <div className={classeBanner}>
-                <img src={Banner} alt="Imagem Banner" />
             </div>
             <div className="secao-banner-conteudo">
                 <p>BRANDING / UI / UX / TECNOLOGIA</p>

@@ -15,8 +15,10 @@
   
   .secao-experienciatrabalho-conteudo .paragrafo {
     font-size: 14px;
-    width: 650px;
+    max-width: 650px;
     margin: 30px auto 55px;
+    padding-left: 10px;
+    padding-right: 10px
   }
   
   .linha-amarela {
@@ -28,6 +30,16 @@
   /* Seção Card */
   .secao-card {
     display: flex;
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
   }
+
+/* Responsividade */
+@media screen and (max-width: 375px) {
+  .secao-experienciatrabalho-conteudo .paragrafo {
+      max-width: 300px;
+  }
+}

@@ -4,7 +4,7 @@
     justify-content: space-around;
     border: 1px solid #d8d9e0;
     text-align: left;
-    width: calc(100% / 3);
+    max-width: calc(100% / 3);
     height: 35vh;
     padding: 25px 30px 30px 25px;
 }
@@ -20,4 +20,11 @@
 
 .box-card .empresa {
     font-size: 14px;
+}
+
+/* Responsividade*/
+@media screen and (max-width: 1023px) {
+    .box-card {
+        max-width: 100%;
+    }    
 }
