@@ -12,8 +12,8 @@ A proposta desse projeto é criar uma página que contenha múltiplos componente
 ## Conhecendo o projeto
 O projeto terá duas versões: 
 
-- Ligth
+* Ligth 
 ![image](https://github.com/Falconxtr/agencia-digital/assets/137830852/23d286e0-fa92-4037-8229-f367bdb5c45f)
 
-- Dark
+* Dark
 ![image](https://github.com/Falconxtr/agencia-digital/assets/137830852/73112b84-3056-4c70-b006-f7b6f0ca22da)
